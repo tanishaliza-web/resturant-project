@@ -32,9 +32,8 @@
     height: 35px;
     width: 100px;
 }
-                    /* top bar section close  */
+                
 
-                    /* bg_img section start  */
 .main_menu{
     display: flex;
     gap: 20px;
@@ -168,9 +167,8 @@ a{
     width: 100%;
 }
 
-                    /* About Section Close  */
+                    
 
-                    /* slick_page section Start  */
 hr{
     width: 200px;
 
@@ -216,9 +214,7 @@ border-color: rgb(255, 162, 0);
  position: relative;
 }
 
-                          /* slick_page section Close  */
-
-                          /* form section Start  */
+                
 .form_page_header{
     text-align: center;
     top: 30px;
@@ -287,11 +283,7 @@ form select, form input{
     height: 400px;
     background-color: whitesmoke;
  }
- .extra{
-    /* width: 600px;
-    margin-left: 190px;
-    margin-top: 50px; */
- }
+
  form{
     margin-top: 40px;
  }
@@ -382,11 +374,7 @@ form select, form input{
     color: #000;
  }  
 
-                        /* our_features section close  */
-
-                        /* our_menu section start  */
-
-
+                        
  .menu_side ul{
     display: flex;
     font-size: 10px;
@@ -440,8 +428,8 @@ form select, form input{
 .menu_side ul li a:hover{
     color: #f2745f;
 }
-                        /* our_menu section start  */
-                        /* bottom_slick section start  */
+                        
+                        
 .bottom_slick .your-class div{
     text-align: center;
     font-size: 26px;
@@ -459,8 +447,7 @@ form select, form input{
     background-repeat: no-repeat;
     background-blend-mode: darken;
 }
-                            /* bottom_slick section close  */
-                            /* instagram section start  */
+                            
 .instagram h1{
     text-align: center;
     font-size: 27px;
@@ -494,10 +481,10 @@ form select, form input{
     border: 2px solid blue;
   
 }
-                            /* instagram section section close  */
-                            /* last section start  */
+                            
 .last .about_us p{
     width: 270px;
+    color:white ;
 }
 .img_flex img{
     height: 70px;
@@ -510,16 +497,17 @@ form select, form input{
  .last{
     display: flex;
     justify-content: space-evenly;
+    color:black;
  }
 .last_icon {
     gap: 40px;
     background-color: grey;
  }
  .rech_us h1{
-    color: #f2745f;
+    color:white;
  }
  .Recent_post .images h1{
-    color: #f2745f;
+    color: white;
  }
 
  .last{
@@ -529,68 +517,61 @@ form select, form input{
  }
  footer{
     text-align: center;
-    background-color: whitesmoke;
+    background-color: rgb(9, 2, 2);
  }
-                                /* last section close  */
 
-
-                                /* responsivenes */
-
-
-                                @media (max-width: 992px){
-                                    .menu_bar{
-                                        display: none;
-                                        float: none;
-                                    }
-                                  .hero_area img{
-                                    height: 200px;
-                                    align-items: center;
-                                    margin-top: 150px;
-                                  }
-                                  .hero_area_text h1{
-                                    font-size: 30px;
-                                  }
-                                  .hero_area_text_two h1{
-                                    font-size: 20px;
-                                    text-align: center;
-                                    margin-top:12px ;
-                                  }
-                                  .bottom_image{
-                                    display: none;
-                                  }
-                                  .all_container p{
-                                    font-size: 17px;
-                                    text-align: center;
-                                    width: 300px;
-                                    margin-left: 50px;
-                                  }
-                                  .first_img{
-                                   margin-left: 90px;
-                                   
-                                
-                                  }
-                                  .about .all_container{
-                                  display: block;
-                                  justify-content:center ;
-                                  }
-                                  .about{
-                                    height: 770px;
-                                  }
-                                 .card_container p{
-                                    text-align: center;
-                                 }
-                                .advanced h2{
-                                    font-size: 27px;
-                                }
-                                form select, form input {
-                                    font-size: 13pxpx;
-                                }
-                                .advanced{
-                                    width: 80%;
-                                    height: 320px;
-                                }
-                                .images .sakib{
-                                    align-items: center;
+   @media (max-width: 992px){
+    .menu_bar{
+     display: none;
+    float: none;
+     }
+ .hero_area img{
+ height: 200px;
+ align-items: center;
+margin-top: 150px;
+ }
+ .hero_area_text h1{
+ font-size: 30px;
+ }
+ .hero_area_text_two h1{
+ font-size: 20px;
+ text-align: center;
+  margin-top:12px ;
+}
+ .bottom_image{
+display: none;
+ }
+ .all_container p{
+ font-size: 17px;
+text-align: center;
+ width: 300px;
+ margin-left: 50px;
+ }
+ .first_img{
+  margin-left: 90px;
+ }
+.about .all_container{
+ display: block;
+ justify-content:center ;
+  }
+ .about{
+  height: 770px;
+  }
+.card_container p{
+ text-align: center;
+ }
+ .advanced h2{
+ font-size: 27px;
+}
+ form select, form input {
+ font-size: 13pxpx;
+}
+.advanced{
+  width: 80%;
+ height: 320px;
+ }
+ .images .containerr{
+ align-items: center;
                                 }
                                 .your-class div img{
                                     width: 300px;
@@ -641,13 +622,13 @@ form select, form input{
 
 
 
-                                 /* slick arrows css  */
+                                
    
                                  
 
                                  .slick-prev::before,
 .slick-next::before {
-    color: rgba(0, 0, 0, 0.2);
+    color: rgba(249, 241, 241, 0.827);
     font-size: 2.5rem;
 }
 
